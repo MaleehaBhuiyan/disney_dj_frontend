@@ -14,17 +14,17 @@ const SlideshowTwo = () => {
         <Fade arrows={false}>
           <div className="each-fade">
             <div className="image-container">
-              <img id="imgTwo" src={fadeImages[0]} />
+              <img id="imgTwo" src={fadeImages[0]} alt='' />
             </div>
           </div>
           <div className="each-fade">
             <div className="image-container">
-              <img id="imgTwo" src={fadeImages[1]} />
+              <img id="imgTwo" src={fadeImages[1]} alt='' />
             </div>
           </div>
           <div className="each-fade">
             <div className="image-container">
-              <img id="imgTwo" src={fadeImages[2]} />
+              <img id="imgTwo" src={fadeImages[2]} alt='' />
             </div>
           </div>
         </Fade>

@@ -5,7 +5,7 @@ import 'react-slideshow-image/dist/styles.css';
 const fadeImages = [
   'https://thatoldpictureshow.files.wordpress.com/2019/05/pocahontas.png?w=1600&h=768&crop=1',
   'https://www.simbasible.com/wp-content/uploads/2016/09/unnamed-29.jpg',
-  'https://lh3.googleusercontent.com/proxy/NJPPzV5iISxvH5sHehZulQ2QZrZma761VvfrlBF2rMmLfJJndeETPI1pO5NX-l1BVRu_cD1MaiuBhDigopwD2wZCoS2WLDdEcAcu5oEswqpcRsDmsGmgWs3qy4wWW09nmWNcYcim1vamUWJpsWOaCUA_-PmIgRMA56l-FiGm7fNc8A'
+  'https://www.filmgazm.com/uploads/1/8/1/2/1812902/published/pocahontas-still.jpg?1568435173'
 ];
 
 const SlideshowTwelve = () => {
@@ -14,17 +14,17 @@ const SlideshowTwelve = () => {
         <Fade arrows={false}>
           <div className="each-fade">
             <div className="image-container">
-              <img id="imgTwelve" src={fadeImages[0]} />
+              <img id="imgTwelve" src={fadeImages[0]} alt='' />
             </div>
           </div>
           <div className="each-fade">
             <div className="image-container">
-              <img id="imgTwelve" src={fadeImages[1]} />
+              <img id="imgTwelve" src={fadeImages[1]} alt='' />
             </div>
           </div>
           <div className="each-fade">
             <div className="image-container">
-              <img id="imgTwelve" src={fadeImages[2]} />
+              <img id="imgTwelve" src={fadeImages[2]} alt='' />
             </div>
           </div>
         </Fade>

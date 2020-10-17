@@ -1,3 +1,13 @@
+body {
+  
+}
+
+
+
+
+
+
+
 * {
     border: 0;
     box-sizing: border-box;
@@ -325,8 +335,9 @@
 
 
 
+  /*************************************************************WELCOME PAGE****************************************************************/
   
-  /*Opening Page CSS*/
+  /*Opening Component CSS*/
 
   #openingTextLogo{
     position:absolute;
@@ -342,6 +353,7 @@
     font-family: Didot;
   }
 
+  /*Slideshow Components CSS*/
 
   .each-slide > div {
     display: flex;
@@ -505,7 +517,28 @@
     height: 175px;
     border-radius: 25px;
   }
+  
+  /* ABOUT COMPONENT CSS */
 
+  .aboutComponent{
+    position:absolute;
+    top:100%;
+    width: 300px;
+    width:100%;
+    height: 92%;
+    background-color: black;
+    color: white;
+    font-family: Didot;
+    font-weight: bold;
+    font-size: 150%;
+    overflow:hidden;
+  }
+
+  #abouth1{
+    position: relative;;
+    left: 8%;
+    top: 5%;
+  }
 
 
   

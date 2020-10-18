@@ -536,11 +536,23 @@ body {
 
   #abouth1{
     position: relative;;
-    left: 8%;
+    left: 20%;
     top: 5%;
   }
 
+  #aboutDisneyLand{
+    position: relative;;
+    left: 60%;
+    top: -20%;
+    height: 115%;
+  }
 
+  #aboutDisneyDescription{
+    position: relative;;
+    left: 5%;
+    top: -100%;
+    width: 45%;
+  }
   
 
 

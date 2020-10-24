@@ -553,8 +553,36 @@ body {
     top: -100%;
     width: 45%;
   }
-  
 
+
+
+
+  
+  /*************************************************************HOME PAGE****************************************************************/
+
+  /*PROFILE COMPONENT CSS */
+
+  #profile{
+    border: thistle;
+    border-style: solid;
+  }
+
+  #profilePic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  #profileMainHeader{
+    text-align: center;
+  }
+
+  #userInfo{
+    text-align: center;
+  }
 
 
 
